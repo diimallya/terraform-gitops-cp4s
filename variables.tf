@@ -122,7 +122,7 @@ variable "catalog_namespace" {
 
 variable "backup_storage_size" {
   type = string
-  description = "The storage size for the backup and restore PVC. Must be 500Gi or higher."
+  description = "The storage size for the backup and restore PVC. Must be 500Gi or higher. If not specified, by default 500Gi is reserved."
   default = ""
 }
 
