@@ -9,4 +9,5 @@ module "cp4s" {
   kubeseal_cert = module.gitops.sealed_secrets_cert
   entitlement_key = module.cp_catalogs.entitlement_key
   backup_storage_size = var.backup_storage_size
+  admin_user = var.cp4s_admin_user
 }
