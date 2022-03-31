@@ -80,3 +80,7 @@ variable "cp_entitlement_key" {
 variable "backup_storage_size" {
   default = "2Gi"
 }
+
+variable "cp4s_admin_user" {
+  default = "dimallya@in.ibm.com"
+}
